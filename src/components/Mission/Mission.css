@@ -1,0 +1,32 @@
+.bgt{
+    background-image: url(/public/images/bgbody5.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+.box,
+.head{
+    transform: scaleX(-1);   
+}
+.boxBorder{
+    background-image: url(/public/images/Heading-Border.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.card:hover{
+    filter : drop-shadow(0 0 0px rgb(255, 255, 255, 60%));
+    color: rgb(255, 255, 255, 80%); 
+    transform: scale(1.08);
+    transition: .5s;
+}
+.body{
+    overflow-x: hidden;
+    z-index: -1;
+}
+@media only screen and (min-width:200px) and (max-width:767px){
+    .boxBorder{
+        margin: 20px;
+    }
+}

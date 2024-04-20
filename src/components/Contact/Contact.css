@@ -1,0 +1,19 @@
+.bgContact{
+    background-image: linear-gradient(#000000ab,#000000f5),url(/public/images/aboutbanner2.jpg);
+    background-size: cover;
+    margin-bottom: 90px;
+    height: 340px;
+      background-position: center;
+      overflow: hidden;
+      z-index: -1;
+}
+.bgDesign{
+    background-image: url(/public/images/bgbody5.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+.textView{
+    transform: scaleX(-1);
+}

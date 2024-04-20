@@ -1,0 +1,22 @@
+.headingBorder{
+    background-image: url(/public/images/Heading-Border.png);
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.body{
+    overflow-x: hidden;
+}
+.bgAbout{
+    background-image: linear-gradient(#000000ab,#000000f5),url(/public/images/aboutbanner2.jpg);
+    background-size: cover;
+    margin-bottom: 90px;
+    height: 340px;
+    background-position: center;
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .bgAbout{
+        padding: 20px;
+    }
+}

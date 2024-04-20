@@ -1,0 +1,26 @@
+.bgFoot{
+    background-image: linear-gradient(45deg, black, transparent),url(/public/images/footer-pattern.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #224743;
+    z-index:-1
+}
+p{
+    padding: 5px;
+}
+.spot{
+  position: relative;
+  bottom: 20px;
+}
+.pan{
+    position: relative;
+    bottom: 20px;
+    left: 18px;
+  }
+i{
+    color:#8CC43F ;
+}
+.body{
+    overflow-x: hidden;
+}

@@ -1,0 +1,43 @@
+.color a{
+    color: white;
+    position: relative;
+}
+.bgTop{
+    background: #0116138f;
+    background-image: url(/public/images/footer-pattern.png);
+}
+.color a::after{
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: -5px;
+ height: 3px;
+ width: 0%;
+ transition: all ease 1s;
+}
+.color a:hover::after{
+    width: 100%;  
+}
+.color a:hover{
+    color: #8CC43F;
+}
+.decoration-none a:hover{
+    text-decoration: none;
+}
+.body{
+    overflow-x: hidden;
+    z-index: 1;
+}
+.button{
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgb(135 139 135);
+    background: #7a8371; 
+    margin: 10px;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .display{
+        display: none;
+        z-index: 1;
+    }
+}
