@@ -1,6 +1,6 @@
 # Ayurveda Health Website
 
-The Ayurveda Health website is a comprehensive online platform built with React.js
+The Ayurveda Health website is a comprehensive online platform built with React.js.
 
 ## Getting Started
 
